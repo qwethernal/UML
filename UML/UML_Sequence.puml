@@ -1,0 +1,14 @@
+@startuml
+class Person {
+    - name: String
+    - age: int
+    + getInfo(): String
+}
+
+class Student {
+    - studentID: int
+    + study(): void
+}
+
+Person <|-- Student
+@enduml
